@@ -28,7 +28,7 @@
   font-family: 'Ubuntu';
   text-align: left;
   font-size: 3rem;
-  position: absolute;
+  position: static;
   left: 90px;
   top: 300px;
   width: 37%;
