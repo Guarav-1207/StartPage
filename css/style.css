@@ -1,0 +1,138 @@
+#Title {
+  background-color: #1b262c;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Fondamento', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  font-family: "Montserrat";
+  padding: 0px 7%;
+  text-align: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.homeimage {
+  width: 100%;
+  margin: 0;
+}
+
+.headline-text {
+  font-family: 'Ubuntu';
+  text-align: left;
+  font-size: 3rem;
+  position: absolute;
+  left: 90px;
+  top: 300px;
+  width: 37%;
+  color: #000;
+}
+
+.feature-desc {
+  color: #a8a3a3;
+  padding: 10px;
+}
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  color: #1b262c;
+}
+
+#products {
+  padding: 7% 10%;
+  text-align: center;
+  background-color: #1b262c;
+  color: #fff;
+}
+
+.icon {
+  margin: 20px 0;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 25%;
+}
+
+.product-heading {
+  font-family: 'Ubuntu';
+}
+
+.header {
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+#Aboutus {
+  text-align: center;
+  padding: 7% 15%;
+  color: #1b262c;
+}
+
+.aboutus-text {
+  font-family: 'Ubuntu';
+  text-align: left;
+  line-height: 2;
+}
+
+#Contactus {
+  text-align: center;
+  padding: 7% 15% 3%;
+  background-color: #1b262c;
+  color: #fff;
+}
+
+.social-icon {
+  margin: 20px;
+}
+
+.copyright {
+  color: #d3d3d3;
+  margin: 10px;
+}
+
+@media (max-width:768px) {
+  .headline-text {
+    font-size: 1.5rem;
+    left: 50px;
+    top: 200px;
+  }
+}
+@media (min-width:768px) and (max-width:1024px) {
+  .headline-text {
+    font-size: 2rem;
+    left: 60px;
+    top: 245px;
+  }
+}
+@media (min-width:1024px) and (max-width:1224px) {
+  .headline-text {
+    font-size: 2.5rem;
+    left: 70px;
+    top: 275px;
+  }
+}
+
+/* .headline-text {
+  position: absolute;
+  top: 250px;
+  left:200px;
+  width:20%;
+  color: #000;
+  z-index: 1;
+} */
+/* a {
+  text-decoration: none;
+} */
